@@ -7,32 +7,38 @@
   </head>
   <body>
     <h1>Formulir Isian</h1>
+    <!-- Kalau get akan tampak, kalau post tidak tampak -->
     <form action="/daftar" method="post">
-      <!-- <div>
+      <div>
         <label for="name">Nama Lengkap</label>
-        <input type="text" placeholder="Nama" id="name" />
+        <input type="text" placeholder="Nama" id="name" name="name" />
       </div>
 
       <div>
         <label for="email">Email</label>
-        <input type="email" placeholder="Email" id="email" />
+        <input type="email" placeholder="Email" id="email" name="email" />
       </div>
 
       <div>
         <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password" />
+        <input
+          type="password"
+          placeholder="Password"
+          id="password"
+          name="password"
+        />
       </div>
 
       <div>
-        <label for="nomor">Nomor</label>
-        <input type="number" placeholder="Nomor" id="nomor" />
+        <label for="phone">Nomor</label>
+        <input type="number" placeholder="Phone" id="phone" name="phone" />
       </div>
 
-      <div>
+      <!-- <div>
         <label for="warna">Warna</label>
         <input type="color" placeholder="Warna" id="warna" />
       </div> -->
-      <table border="1">
+      <!-- <table border="1">
         <tr>
           <td>Nama</td>
           <td><input type="text" placeholder="Nama" /></td>
@@ -57,12 +63,12 @@
           <td>Warna</td>
           <td><input type="color" placeholder="Warna" /></td>
         </tr>
-      </table>
+      </table> -->
 
       <!-- Type bisa berupa button atau submit -->
       <button type="submit">Kirim</button>
-      <button type="button">Tombol Biasa</button>
-      <input type="button" value="Daftar" />
+      <!-- <button type="button">Tombol Biasa</button>
+      <input type="button" value="Daftar" /> -->
     </form>
   </body>
 </html>
