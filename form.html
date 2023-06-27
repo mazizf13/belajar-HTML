@@ -70,5 +70,36 @@
       <!-- <button type="button">Tombol Biasa</button>
       <input type="button" value="Daftar" /> -->
     </form>
+
+    <hr />
+
+    <h1>Pesanan</h1>
+    <form action="/order">
+      <label for="">Baju</label>
+      <div>
+        <input type="radio" name="baju" id="" value="Kemeja" checked />
+        <label for="">Kemeja</label>
+
+        <input type="radio" name="baju" id="" value="kaos" />
+        <label for="">Kaos</label>
+      </div>
+
+      <div>
+        <label for="ukuran">Ukuran</label>
+        <select name="ukuran" id="ukuran">
+          <option>-</option>
+          <option value="S">Small</option>
+          <option value="M" selected>Medium</option>
+          <option value="L">Large</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="term">Sesuai Pesanan</label>
+        <input type="checkbox" name="term" id="term" />
+      </div>
+
+      <button>Order</button>
+    </form>
   </body>
 </html>
